@@ -1,0 +1,24 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	String[] colors = new String[5];
+    colors[0] = "\u001B[0m";
+    colors[1] = "\u001B[31m";
+    colors[2] = "\u001B[32m";
+    colors[3] = "\u001B[33m";
+    colors[4] = "\u001B[34m";
+
+
+
+        for (long i = 0; i <= 124151342 ; i++) {
+            for(int j = 1; j<=4; j++){
+                System.out.print(colors[j] + i + colors[0]);
+            }
+        }
+
+
+
+    }
+}
